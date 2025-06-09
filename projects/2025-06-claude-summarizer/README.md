@@ -109,4 +109,4 @@ Key features demonstrated:
 
 👉 **Try it yourself**: Clone this project and experiment with your own documents!
 
-🐦 [Share on Twitter](https://twitter.com/intent/tweet?text=Check%20out%20this%20Claude%20Summarizer%20Agent) | 💬 [Discuss on GitHub](https://github.com/yourusername/claude-code-lab/discussions)
+🐦 [Share on Twitter](https://x.com/intent/tweet?text=Check%20out%20this%20Claude%20Summarizer%20Agent) | 💬 [Discuss on GitHub](https://github.com/husniramdani/claude-code-lab/discussions)
