@@ -26,7 +26,7 @@ cp .env.example .env
 
 # Create new article
 mkdir -p articles/YYYY-MM-article-title/{assets,code}
-touch articles/YYYY-MM-article-title/{README.md,article.md}
+touch articles/YYYY-MM-article-title/{README.md,article.mdx}
 
 # Create new project
 mkdir -p projects/YYYY-MM-project-name/{src,demo}
@@ -57,10 +57,11 @@ pnpm exec tsc
 
 ### Articles
 - Follow `YYYY-MM-article-title` naming convention
-- Include `article.md` for main content, `README.md` for metadata
+- Include `article.mdx` for main content (always use MDX format), `README.md` for metadata
 - Store code examples in `code/` subdirectory
 - Include images and diagrams in `assets/` subdirectory
 - Track publication status and Medium/social media links
+- Always use mdx file to generate an articles
 
 ### Projects
 - Follow `YYYY-MM-project-name` naming convention
