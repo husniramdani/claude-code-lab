@@ -1,7 +1,7 @@
 # Claude Code Lab 🧠⚡
 
 A growing collection of Claude AI agent experiments and code tutorials.  
-Published weekly on [Medium](https://medium.com/@yourhandle) and shared on Twitter.
+Published weekly on [Medium](https://medium.com/@husniramdani18) and shared on Twitter.
 
 ## 🚀 About This Project
 
@@ -30,7 +30,7 @@ This repository contains practical examples and tutorials for building AI agents
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/claude-code-lab.git
+git clone https://github.com/husniramdani/claude-code-lab.git
 cd claude-code-lab
 
 # Install dependencies
@@ -57,20 +57,11 @@ claude-code-lab/
 └── docs/              # Additional documentation
 ```
 
-## 🤝 Contributing
-
-Have an interesting Claude Code use case? Feel free to:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-agent`)
-3. Commit your changes (`git commit -m 'Add amazing agent'`)
-4. Push to the branch (`git push origin feature/amazing-agent`)
-5. Open a Pull Request
-
 ## 📫 Connect & Follow
 
-- **Medium**: [Follow for weekly articles](https://medium.com/@yourhandle)
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **GitHub**: [Star this repo](https://github.com/yourusername/claude-code-lab)
+- **Medium**: [Follow for weekly articles](https://medium.com/@husniramdani18)
+- **Twitter**: [@spindyzel](https://x.com/spindyzel)
+- **GitHub**: [Star this repo](https://github.com/husniramdani/claude-code-lab)
 
 ## 📝 License
 
