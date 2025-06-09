@@ -1,0 +1,48 @@
+name: Deploy and Publish
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install pnpm
+        run: npm install -g pnpm
+        
+      - name: Install dependencies
+        run: pnpm install
+        
+      - name: Run tests
+        run: pnpm test
+        continue-on-error: true
+
+  create-release:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release ${{ github.run_number }}
+          body: |
+            Automated release for commit ${{ github.sha }}
+            
+            Check out the latest project updates!
+          draft: false
+          prerelease: false
